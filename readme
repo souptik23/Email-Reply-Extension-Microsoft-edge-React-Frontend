@@ -1,0 +1,110 @@
+🚀 AI-Powered Mail Reply Assistant
+
+An intelligent email reply assistant powered by Google Gemini AI, built with React, Spring Boot, and a Chrome Extension.
+
+📝 Overview
+
+This project is an AI-driven email assistant that helps users generate smart, context-aware replies within Gmail. It seamlessly integrates:
+
+✅ Google Gemini API for AI-powered email response generation.
+
+✅ React.js for the frontend UI.
+
+✅ Spring Boot for backend processing.
+
+✅ Chrome Extension for direct Gmail integration.
+
+🌟 Features
+
+✨ AI-Powered Email Reply Generation – Generate context-aware email responses in seconds.
+
+✨ Seamless Gmail Integration – Works as a Chrome Extension to enhance your Gmail experience.
+
+✨ Real-Time AI Processing – Uses Spring Boot to process requests efficiently.
+
+✨ Localhost Deployment – Runs smoothly on your local machine.
+
+✨ Customizable Tone – Adjust the tone of replies (e.g., formal, casual, professional).
+
+🛠 Tech Stack
+
+Technology
+
+Purpose
+
+Frontend
+
+React.js
+
+Backend
+
+Spring Boot (Java)
+
+AI Model
+
+Google Gemini API
+
+Browser Extension
+
+Chrome Extension (JavaScript)
+
+📂 Project Structure
+
+AI-Mail-Assistant/
+│── backend/        # Spring Boot backend (API + Gemini Integration)
+│── frontend/       # React frontend (UI for testing replies)
+│── extension/      # Chrome extension (Gmail integration)
+│── README.md       # Project documentation
+│── .gitignore      # Ignore unnecessary files
+│── package.json    # Frontend dependencies
+│── pom.xml         # Backend dependencies
+
+🚀 Getting Started
+
+1️⃣ Clone the Repository
+
+git clone https://github.com/your-username/AI-Mail-Assistant.git
+cd AI-Mail-Assistant
+
+2️⃣ Setup & Run Backend (Spring Boot)
+
+cd backend
+mvn clean install
+mvn spring-boot:run
+
+3️⃣ Setup & Run Frontend (React)
+
+cd frontend
+npm install
+npm start
+
+4️⃣ Load Chrome Extension
+
+Open Google Chrome → Go to chrome://extensions/
+
+Enable Developer Mode (top right)
+
+Click Load Unpacked → Select the extension/ folder
+
+🎯 Usage
+
+Open Gmail and click the AI Reply button in the toolbar.
+
+The extension will fetch email content and generate a smart reply using Google Gemini AI.
+
+You can insert the reply into your email with a single click.
+
+🤖 Future Enhancements
+
+🔹 Support for multiple AI models (e.g., GPT, Bard).
+
+🔹 Customizable AI response styles.
+
+🔹 Cloud deployment for real-time AI processing.
+
+🛡 License
+
+This project is licensed under the MIT License – feel free to use and modify!
+
+🎉 Happy Coding! 🚀
+
